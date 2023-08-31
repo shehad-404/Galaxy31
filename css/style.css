@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+.logo{
+    width: 20%;
+    text-align: center;
+    margin-left: 40px;
+}
+
+nav{
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin: 15px 0;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #97999b;
+}
+
+/* banner section  */
+.banner{
+    background-image: url(../images/pexels-luis-felipe-alburquerque-briganti-5191961.jpg);
+
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image: linear-gradient(rgb(255 250 250 / 3%), rgb(8 8 8 / 50%), rgb(28 27 27 / 72%)), url(../images/constellations-1851128_1280.jpg); */
+    text-align: center;
+    /* background-size: contain; */
+    /* background-color: #292c34; */
+    
+}
+
+.banner h1{
+    font-weight: bold;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    color: #ffffff;
+    font-size: 34px;
+}
+.banner h4{
+    color: #ffffff;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner button{
+    border: 1px solid white;
+    background-color: #fb6e52;
+    border-radius: 4px;
+    padding: 20px 50px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+
+/* feature section  */
+.feature{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.logo_2{
+    text-align: center;
+}
+
+.logo_2 h4{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #292c34;
+}
+
+.logo_2 p{
+    padding-top: 20px;
+    color: #97999b;
+    font-size: large;
+}
+
+/* quote section  */
+.quote{
+    width: 100%;
+}
+.para {
+    margin: auto;
+    width: 51%;
+    text-align: center;
+}
+.para p{
+    padding: 60px 0;
+    text-align: center;
+    color: #fb6e52;
+    font-size: 30px;
+}
+
+/* inside section  */
+.inside{
+    width: 100%;
+}
+.container{
+    
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.container .pic{
+    width: 33.33%;
+    padding: 0 20px;
+}
+
+.pic img{
+    width: 100%;
+    height: 250px;
+}
+.pic h4{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #292c34;
+    font-size: 18px;
+    
+}
+.pic h5{
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #97999b;
+    font-size: 15px;
+}
+
+/* blog section  */
+.blog{
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.blog h1{
+    text-align: center;
+    padding: 50px 0;
+    color: #292c34;
+}
+.blog_inside{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.part{
+    width: 50%;
+    padding: 0 20px;
+}
+.part img{
+    width: 100%;
+    height: 300px; 
+}
+.part h4{
+    padding: 20px 0;
+    color: #fb6e52;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    
+}
+.part p{
+    padding-bottom: 60px;  
+    color: #97999b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+}
+
+/* footer section  */
+footer{
+    width: 100%;
+    background-color: #292c34;
+}
+footer .content{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.part_1{
+    display: flex;
+    align-items: center;
+}
+.part_1 span{
+    padding-left: 20px;
+    color: #797c82;
+}
+
+.part_2{
+    display: flex;
+    align-items: center;
+}
+.part_2 ul{
+    display: flex;
+    list-style: none;
+}
+.part_2 ul li{
+    padding-left: 60px;
+}
+.part_2 ul li a{
+    text-decoration: none;
+    color: white;
+    /* color: #626262; */
+}
